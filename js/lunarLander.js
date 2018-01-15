@@ -91,7 +91,6 @@ window.onload = function(){
 	}
 	
 	//Cambiar dificultad
-	//Cambiar dificultad
 	document.getElementById("dificultad").onclick = function () {
         if (d == 0) {
             d = 1;
