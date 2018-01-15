@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Lunar Lander</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Lunar Lander">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/lunarLander.css'>
+		<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/lunarLanderS.css'>
+		<script src="js/lunarLander.js"></script>
+	</head>
+	
+	<body>
+
+		<div id="nave">
+			<img id="nave_img" src="img/starship_G.png" alt="img nave">
+		</div>
+	
+		<div class="a">
+			
+			<div id="control_panel">
+			
+				<div class="marcador">
+					<img class="cpanel_img" src="img/control_panel.png" alt="img nave">
+					<div class="cpanel_text"><h4>Velocidad</h4></div>
+					<div class="cpanel_number"><h1><span id="velocidad">100</span> m/s</h1></div>
+				</div>
+				
+				<div class="marcador">
+					<img class="cpanel_img" src="img/control_panel.png" alt="img nave">
+					<div class="cpanel_text"><h4>Fuel</h4></div>
+					<div class="cpanel_number"><h1><span id="fuel">100</span> l</h1></div>
+				</div>
+				
+				<div class="marcador">
+					<img class="cpanel_img" src="img/control_panel.png" alt="img nave">
+					<div class="cpanel_text"><h4>Altura</h4></div>
+					<div class="cpanel_number"><h1><span id="altura">70</span> m</h1></div>
+				</div>
+				
+			</div>
+		</div>
+	
+		<div class="b">
+		
+			<div id="showm">
+			
+				<img id="shwm_img" src="img/menu_button.png" alt="img play-pause">
+			
+			</div>
+		
+		</div>
+	
+		<div class="c">
+		
+			<div id="hidem"><img id="hidem_img" src="img/menu_button.png" alt="img play-pause"></div>
+			
+			<div id="menu">
+			
+				<div id="play-pause">
+					<img id="play-pause_img" src="img/pause_button.png" alt="img play-pause">
+				</div>
+				
+				<div id="replay">
+					<img id="replay_img" src="img/restart_button.png" alt="img replay">
+				</div>
+				
+				<div id="info">
+					<a href="LunarLanderI.html"><img id="info_img" src="img/info_button.png" alt="img info"></a>
+				</div>
+				
+				<div id = "dificultad">
+					Dificultad seleccionada: <span id="dificultad_text">Facil</span>
+				</div>
+			
+			</div>
+			
+		</div>
+	
+		<div class="d">
+			<img id="moon_img" src="img/moon.png" alt="img luna">
+		</div>
+		
+	</body>
+	
+</html>

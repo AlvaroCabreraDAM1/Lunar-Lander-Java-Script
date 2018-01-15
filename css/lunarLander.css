@@ -1,0 +1,114 @@
+body,html {
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	background-image: url("../img/background.png");
+	background-repeat:repeat;
+}
+
+.a {
+	!background-color:red;
+}
+
+.b {
+	!background-color:blue;
+}
+
+.c {
+	!background-color:green;
+	display:block !important
+}
+
+.a,.b,.c {
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+
+#control_panel {
+	height:75%;
+	width:50%;
+	float:left;
+	!background-color:yellow;
+}
+
+.marcador {
+	height:100px;
+	width:200px;
+	margin-top:15px;
+	margin-left:15px;
+}
+
+.cpanel_img {
+	height:100%;
+	width:100%;
+}
+
+.cpanel_text {
+	height:20px;
+	width:100px;
+	text-align:center;
+	margin-top:-125px;
+	margin-left:50px;
+	background-color:yellow;
+}
+
+.cpanel_number {
+	margin-top:0;
+	text-align:center;
+}
+
+#menu {
+	height:100px;
+	width:315px;
+	margin-top:15px;
+	margin-right:15px;
+	float:right;
+}
+
+#play-pause,#replay,#info {
+	width:100px;
+	height:100px;
+	margin-left:5px;
+	float:left;
+}
+
+#play-pause_img,#replay_img,#info_img {
+	width:100%;
+	height:100%;
+}
+
+.d {
+	height:14.1%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	text-align:center;
+}
+
+#nave {
+	text-align:center;
+	position:fixed;
+	top:10%;
+	margin-left:40%;
+	width:20%;
+	height:20%
+}
+
+#nave img {
+	height:100%;
+}
+
+#hidem,#showm {
+	display:none
+}
+#dificultad {
+	margin-top:110px;
+	color:white;
+	text-align:ceter;
+	margin-left:60px;
+}
