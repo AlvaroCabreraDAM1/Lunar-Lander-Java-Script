@@ -9,16 +9,7 @@ body {
 	background-repeat:repeat;
 }
 
-.a {
-	!background-color:red;
-}
-
-.b {
-	!background-color:blue;
-}
-
 .c {
-	!background-color:green;
 	display:block !important
 }
 
@@ -33,7 +24,6 @@ body {
 	height:75%;
 	width:50%;
 	float:left;
-	!background-color:yellow;
 }
 
 .marcador {
@@ -121,7 +111,6 @@ body {
 #dificultad {
 	margin-top:130px;
 	color:white;
-	text-align:ceter;
 	margin-left:60px;
 }
 

@@ -16,10 +16,6 @@ body {
 	float:left;
 }
 
-.a {
-	!background-color:red;
-}
-
 #control_panel {
 	height:75%;
 	width:80%;
@@ -54,10 +50,6 @@ body {
 	font-size:70%;
 }
 
-.b {
-	!background-color:blue;
-}
-
 .c {
 	background-image: url("../img/background.png");
 	background-repeat:repeat;
@@ -87,7 +79,6 @@ body {
 	height:100px;
 	margin-top:10px;
 	margin-right:5px;
-	!background-color:red;
 }
 
 #play-pause_img,#replay_img,#info_img {
@@ -96,7 +87,6 @@ body {
 }
 
 .d {
-	!background-color:pink;
 	height:14.1%;
 	width:100%;
 	position:fixed;
@@ -139,7 +129,6 @@ body {
 #dificultad {
 	margin-top:50px;
 	color:white;
-	text-align:ceter;
 	width:350px;
 	margin-left:-95px;
 	font-size:150%;
