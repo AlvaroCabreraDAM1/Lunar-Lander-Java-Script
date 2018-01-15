@@ -29,3 +29,9 @@ body {
 	position:relative;
 	font-size:200%
 }
+
+#exit:hover {
+	color:black;
+	background-color:white;
+	font-size:220%;
+}

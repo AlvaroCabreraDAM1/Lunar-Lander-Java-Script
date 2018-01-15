@@ -47,10 +47,12 @@ window.onload = function(){
 	
 	//encender/apagar el motor al hacer click en la pantalla
 	document.getElementById("moon_img").onclick = function () {
-		if (a==g){
-			motorOn();
-		} else {
-			motorOff();
+		if (p == 0) {
+			if (a==g){
+				motorOn();
+			} else {
+				motorOff();
+			}
 		}
 	}
 	
@@ -71,6 +73,7 @@ window.onload = function(){
 		if (p == 0){
 			p = 1;
 			document.getElementById("play-pause_img").src="img/play_button.png";
+			motorOff();
 			stop();
 		} else {
 			p = 0;
@@ -91,13 +94,13 @@ window.onload = function(){
 			if (d == 1) {
 				d = 2;
 				cs = 50.1;
-				document.getElementById("dificultad_text").innerHTML = "Dificultad seleccionada: Dificil";
+				document.getElementById("dificultad_text").innerHTML = "Dificultad seleccionada: Difícil";
 				reiniciar();
 			} else {
 				if (d == 2) {
 				d = 0;
 				cs = 100.1;
-				document.getElementById("dificultad_text").innerHTML = "Dificultad seleccionada: Facil";
+				document.getElementById("dificultad_text").innerHTML = "Dificultad seleccionada: Fácil";
 				reiniciar();
 				}
 			}
