@@ -80,23 +80,24 @@ window.onload = function(){
 	}
 	
 	//Cambiar dificultad
+	//Cambiar dificultad
 	document.getElementById("dificultad").onclick = function () {
         if (d == 0) {
             d = 1;
 			cs = 100.1;
-			document.getElementById("dificultad_text").innerHTML = "Normal";
+			document.getElementById("dificultad_text").innerHTML = "Dificultad seleccionada: Normal";
 			reiniciar();
         } else {
 			if (d == 1) {
 				d = 2;
 				cs = 50.1;
-				document.getElementById("dificultad_text").innerHTML = "Dificil";
+				document.getElementById("dificultad_text").innerHTML = "Dificultad seleccionada: Dificil";
 				reiniciar();
 			} else {
 				if (d == 2) {
 				d = 0;
 				cs = 100.1;
-				document.getElementById("dificultad_text").innerHTML = "Facil";
+				document.getElementById("dificultad_text").innerHTML = "Dificultad seleccionada: Facil";
 				reiniciar();
 				}
 			}
