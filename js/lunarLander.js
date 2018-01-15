@@ -226,6 +226,7 @@ function actualizarFuel(){
 		//evitar que que el combustible sea inferior a 0
 		if (c < 0 ) {
 			c = 0;
+			motorOff();
 		}
 		
 	} else {
