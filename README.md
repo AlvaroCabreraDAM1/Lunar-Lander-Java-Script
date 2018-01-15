@@ -1,6 +1,12 @@
-# Lunar Lander Java Script
+# Lunar Lander Java Script Minimizado
 
-Link: https://rawgit.com/AlvaroCabreraDAM1/Lunar-Lander-Java-Script/master/LunarLander.html
+Link a la pagina con código minimizado: 
+
+https://rawgit.com/AlvaroCabreraDAM1/Lunar-Lander-Java-Script/minimizado/LunarLander.html
+
+Link al código original:
+
+https://github.com/AlvaroCabreraDAM1/Lunar-Lander-Java-Script
 
 Funcionalidades: 
 
