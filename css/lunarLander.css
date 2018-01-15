@@ -111,10 +111,44 @@ body {
 #dificultad {
 	margin-top:130px;
 	color:white;
+	background-color:black;
 	margin-left:60px;
 }
 
 #dificultad_text:hover {
+	color:black;
+	background-color:white;
+	font-size:110%;
+}
+
+#win {
+	text-align:center;
+	width:500px;
+	height:250px;
+	margin-top:20%;
+	margin-left:10%;
+	font-size:220%;
+	color:white;
+	display:none;
+}
+
+#lose {
+	text-align:center;
+	width:500px;
+	height:250px;
+	margin-top:20%;
+	margin-left:10%;
+	font-size:220%;
+	color:white;
+	display:none;
+}
+
+#win_exit, #lose_exit {
+	text-decoration: underline;
+	background-color:black;
+}
+
+#win_exit:hover, #lose_exit:hover {
 	color:black;
 	background-color:white;
 	font-size:110%;

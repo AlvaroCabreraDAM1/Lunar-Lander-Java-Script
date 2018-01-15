@@ -68,6 +68,14 @@ window.onload = function(){
 		reiniciar();
 	}
 	
+	document.getElementById("win_exit").onclick = function () {
+		reiniciar();
+	}
+	
+	document.getElementById("lose_exit").onclick = function () {
+		reiniciar();
+	}
+	
 	//Play/Pause
 	document.getElementById("play-pause_img").onclick = function () {
 		if (p == 0){
@@ -137,15 +145,15 @@ function moverNave(){
 			document.getElementById("nave").style.top = y + "%"; 
 		} else {
 			if (v < 5 && d == 0) {
-				alert("Has ganado");
+				document.getElementById("win").style.display = "block";
 			} else {
 				if (v < 1 && d == 1) {
-					alert("Has ganado");
+					document.getElementById("win").style.display = "block";
 				} else {
 					if (v < 1 && d == 2) {
-						alert("Has ganado!");
+						document.getElementById("win").style.display = "block";
 					} else {
-						alert("Has perdido!");
+						document.getElementById("lose").style.display = "block";
 					}
 				}
 			}
@@ -245,6 +253,8 @@ function reiniciar(){
 		stop();
 		document.getElementById("play-pause_img").src="img/pause_button.png";
 		document.getElementsByClassName("c")[0].style.display = "none";
+		document.getElementById("win").style.display = "none";
+		document.getElementById("lose").style.display = "none";
 		y = 5;
 		v = 0;
 		p = 0;

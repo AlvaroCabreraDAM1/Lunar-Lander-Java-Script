@@ -133,3 +133,28 @@ body {
 	margin-left:-95px;
 	font-size:150%;
 }
+
+#win {
+	text-align:center;
+	width:200px;
+	height:250px;
+	margin-top:50%;
+	font-size:150%;
+	color:white;
+	display:none;
+}
+
+#lose {
+	text-align:center;
+	width:200px;
+	height:250px;
+	margin-top:50%;
+	font-size:150%;
+	color:white;
+	display:none;
+}
+
+#win_exit, #lose_exit {
+	text-decoration: underline;
+	background-color:black;
+}
