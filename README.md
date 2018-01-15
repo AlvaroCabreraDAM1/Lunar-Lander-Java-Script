@@ -4,7 +4,7 @@ Link a la pagina:
 
 https://rawgit.com/AlvaroCabreraDAM1/Lunar-Lander-Java-Script/master/LunarLander.html
 
-Link al repositorio con el codigo minimizado: 
+Link al repositorio con el código minimizado: 
 
 https://github.com/AlvaroCabreraDAM1/Lunar-Lander-Java-Script/tree/minificado
 
