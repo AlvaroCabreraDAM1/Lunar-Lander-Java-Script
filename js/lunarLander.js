@@ -25,6 +25,9 @@ var combustible = null;
 var p = 0;
 var r = 0;
 
+//Control
+var e;
+
 window.onload = function(){
 	
 	velocidad = document.getElementById("velocidad");
@@ -113,6 +116,18 @@ window.onload = function(){
 			}
 		}			
     }
+	
+	//Confirmar al salir
+	document.getElementById("info_img").onclick = function () {
+		
+		if (confirm("Desa salir de la pagina?")){
+			
+			window.open("lunarLanderI.html","_self");
+			
+		}
+		
+	}
+	
 }
 
 //Definición de funciones
@@ -156,6 +171,7 @@ function moverNave(){
 					}
 				}
 			}
+			motorOff();
 			stop();
 		}
 		
